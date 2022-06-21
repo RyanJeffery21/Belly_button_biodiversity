@@ -105,7 +105,7 @@ function buildCharts(sample) {
         xanchor: 'center',
         y: -0.25,
         yanchor: 'center',
-        text: 'The bar chart displays the top 10 bacterial species (OTUs)<br>with the number of samples found in your belly button',
+        text: 'The above chart shows the Top 10 bacterial species found in the belly button',
         showarrow: false
       }]
     };
@@ -117,7 +117,7 @@ function buildCharts(sample) {
     // Create the buildCharts function.
     //function buildCharts(sample) {
     // Use d3.json to load and retrieve the samples.json file 
-    //d3.json("samples.json").then((data) => {
+    
 
     // 1. Create the trace for the bubble chart.
     var bubbleData = [{
@@ -189,7 +189,7 @@ function buildCharts(sample) {
         xanchor: 'center',
         y: 0,
         yanchor: 'center',
-        text: "The gauge shows weekly belly button washing frequency",
+        text: "The gauge displays your belly button weekly washing frequency",
         showarrow: false
       }]
     };
